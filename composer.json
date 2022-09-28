@@ -1,0 +1,21 @@
+{
+    "name": "altkom/structural",
+    "description": "Structural Design Patterns",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Structural\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Structural\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
