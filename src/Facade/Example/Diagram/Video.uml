@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Structural\Composite\Renderable</OriginalElement>
+  <nodes>
+    <node x="175.66666666666669" y="90.5">\Structural\Facade\Example\Video</node>
+    <node x="-94.0" y="-40.0">\Structural\Facade\Example\ThumbnailMaker</node>
+    <node x="-53.5" y="90.5">\Structural\Facade\Example\VideoUploader</node>
+    <node x="119.0" y="-40.0">\Structural\Facade\Example\VideoFile</node>
+    <node x="115.0" y="183.0">\Structural\Facade\Example\VideoPublisher</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="266.3333333333333" y="109.33333333333334" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

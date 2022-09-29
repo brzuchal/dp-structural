@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Structural\Composite\Renderable</OriginalElement>
+  <nodes>
+    <node x="312.8333333333333" y="-49.99999999999997">\Structural\Composite\InputElement</node>
+    <node x="-92.0" y="36.5">\Structural\Composite\Fieldset</node>
+    <node x="201.0" y="-154.66666666666669">\Structural\Composite\Renderable</node>
+    <node x="171.66666666666669" y="61.166666666666686">\Structural\Composite\Form</node>
+    <node x="410.33333333333337" y="46.666666666666686">\Structural\Composite\TextElement</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Structural\Composite\TextElement" target="\Structural\Composite\Renderable" relationship="REALIZATION">
+      <point x="-0.0" y="-51.5" />
+      <point x="494.0" y="-142.16666666666669" />
+      <point x="67.0" y="-15.0" />
+    </edge>
+    <edge source="\Structural\Composite\Form" target="\Structural\Composite\Renderable" relationship="REALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="\Structural\Composite\InputElement" target="\Structural\Composite\Renderable" relationship="REALIZATION">
+      <point x="-0.0" y="-27.5" />
+      <point x="387.3333333333333" y="-127.16666666666669" />
+      <point x="67.0" y="-0.0" />
+    </edge>
+    <edge source="\Structural\Composite\Fieldset" target="\Structural\Composite\Renderable" relationship="REALIZATION">
+      <point x="-0.0" y="-51.0" />
+      <point x="4.333333333333314" y="-127.16666666666669" />
+      <point x="-67.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="305.3333333333333" y="-46.66666666666666" />
+  <SelectedNodes>
+    <node>\Structural\Composite\InputElement</node>
+    <node>\Structural\Composite\Renderable</node>
+    <node>\Structural\Composite\Form</node>
+    <node>\Structural\Composite\Fieldset</node>
+    <node>\Structural\Composite\TextElement</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

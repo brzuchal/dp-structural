@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Structural\Tests\Adapter;
+namespace Structural\Tests\Adapter\Example;
 
 
 use Structural\Adapter\Example\Kindle;

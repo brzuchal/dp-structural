@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Structural\Composite\Renderable</OriginalElement>
+  <nodes>
+    <node x="123.5" y="55.5">\Structural\Facade\ComputerFacade</node>
+    <node x="-93.0" y="55.5">\Structural\Facade\Bios</node>
+    <node x="340.0" y="55.5">\Structural\Facade\OperatingSystem</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="266.3333333333333" y="96.33333333333334" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

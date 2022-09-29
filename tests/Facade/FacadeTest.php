@@ -1,20 +1,27 @@
 <?php
 
-
-namespace Structural\Facade\Tests;
-
+namespace Structural\Tests\Facade;
 
 use PHPUnit\Framework\TestCase;
-use Structural\Facade\Runner;
+use Structural\Facade\Bios;
+use Structural\Facade\ComputerFacade;
+use Structural\Facade\OperatingSystem;
 
-class DecoratorTest extends TestCase
+class FacadeTest extends TestCase
 {
-    public function testDisplayOnConsole()
+    public function testComputerOn(): void
     {
-        Runner::run();
+        $os = $this->createMock(OperatingSystem::class);
+        $os->method('getName')
+            ->will($this->returnValue('Linux'));
 
-        self::assertTrue(true);
+        $bios = $this->createMock(Bios::class);
+        $bios->method('launch')
+            ->with($os);
+
+        $facade = new ComputerFacade($bios, $os);
+        $facade->turnOn();
+
+        $this->assertSame('Linux', $os->getName());
     }
-
-
 }

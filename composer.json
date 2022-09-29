@@ -14,8 +14,7 @@
             "Structural\\Tests\\": "tests/"
         }
     },
-    "require": {},
     "require-dev": {
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^9.5"
     }
 }
